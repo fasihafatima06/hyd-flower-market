@@ -2,6 +2,8 @@
 
 A frontend-first digital window into Hyderabad's Gudimalkapur wholesale flower market.
 
+🌐 **Live demo:** [hyd-flower-market.vercel.app](https://hyd-flower-market.vercel.app)
+
 > See today's market. Compare real sellers. Order without the trip.
 
 ---
@@ -10,7 +12,7 @@ A frontend-first digital window into Hyderabad's Gudimalkapur wholesale flower m
 
 Gudimalkapur is Hyderabad's largest wholesale flower market. Every morning before dawn, **hundreds of buyers** — wedding decorators, temple committees, event planners, retail florists — travel to the market in person to source fresh flowers.
 
-**What they face:**
+**On the buyer side:**
 
 - **4–5 AM trips** in the dark, often across the city, just to see what's available and at what price.
 - **No price visibility** until they arrive. Each seller sets their own rate and there's no way to compare without walking stall to stall.
@@ -18,11 +20,12 @@ Gudimalkapur is Hyderabad's largest wholesale flower market. Every morning befor
 - **No structured ordering.** Everything runs on verbal agreements, hand-written notes, and WhatsApp voice messages. Miscommunication leads to wrong quantities, missed deliveries, and disputes.
 - **Time pressure.** Flowers are perishable. Buying, transporting, and arranging must happen within a 4–5 hour window before events start.
 
-**On the seller side:**
+**On the vendor/seller side (Poor Reach & Digital Isolation):**
 
-- Vendors are locked to foot traffic. Their customer base is limited to whoever physically walks past their stall that morning.
-- Most sellers operate on basic smartphones with limited data plans. Complex apps don't work for them.
-- They have no digital catalog, no way to publish prices, and no order management beyond memory and phone calls.
+- **Severely restricted customer reach.** Vendors are entirely locked to physical foot traffic. A seller's business is limited to buyers who physically walk past their specific stall during the brief 4 AM – 8 AM market window.
+- **Inability to capture city-wide demand.** Event planners, hotel florists, and retail shops across Hyderabad who cannot make the exhausting 4 AM trip are completely unreachable for vendors.
+- **Location inequality within the market.** Stall location dictates sales — vendors located at front entry gates dominate foot traffic, while vendors in interior aisles suffer from poor reach regardless of lower prices or better flower quality.
+- **No digital storefront.** Most vendors operate on basic smartphones with limited data plans and have no digital catalog, no way to broadcast live prices, and no simple mechanism to take remote pre-orders.
 
 ---
 
@@ -38,12 +41,13 @@ Gudimalkapur Today gives both sides a **simple, organized digital window** into 
 - **Request a custom match.** Describe what you need ("something pink for a birthday, under ₹500") and the system finds available market listings that fit.
 - **Track your order.** See when sellers accept, when flowers are collected, and when the driver is on the way with an estimated arrival time.
 
-### For Sellers
+### For Vendors / Sellers (Expanding Reach)
 
-- **Publish your own prices.** Set per-kg, per-piece, or per-bunch prices exactly as you quote at the stall. The platform never changes your number.
-- **Reach customers beyond foot traffic.** Your listing is visible to every buyer browsing the market that morning.
-- **Receive and manage orders.** Accept incoming orders, mark them ready, and send them to the driver — all from your phone browser.
-- **Zero app install required.** The entire product runs in a mobile browser. No Play Store download, no storage, no updates.
+- **City-wide customer reach.** Break free from stall position constraints — vendor listings and daily stock are published instantly to decorators, florists, and retail buyers across the entire city.
+- **Equal digital visibility.** Interior vendors gain the same digital storefront exposure as front-gate stalls, competing fairly on price, stock, and flower freshness.
+- **Direct remote orders.** Receive structured pre-orders before or during morning hours, increasing daily turnover without needing extra physical stall space.
+- **Publish live prices easily.** Set per-kg, per-piece, or per-bunch prices in seconds. Sellers retain 100% price control and brand independence.
+- **Zero app install required.** Runs lightweight in any mobile web browser — no storage overhead, works on basic smartphones and low-data networks.
 
 ### Product Principle
 
@@ -57,12 +61,12 @@ The physical market remains the source of supply, sellers remain independent, an
 
 | Problem | Current Reality | With Gudimalkapur Today |
 |---|---|---|
+| **Poor vendor reach** | Locked to physical stall foot traffic (4–8 AM); zero reach to city-wide buyers | Reach every decorator & florist across Hyderabad; interior stalls get equal digital visibility |
 | **Wasted buyer trips** | 30–60 min travel to discover stock/prices | Browse the full market from home by 5:30 AM |
 | **No price transparency** | Walk stall-to-stall to compare | Compare every seller for a flower in one screen |
-| **Seller reach** | Limited to physical foot traffic | Every morning buyer in the city can see your listing |
 | **Order errors** | Verbal agreements, memory-based | Structured cart with quantities, units, and seller names |
 | **Delivery coordination** | Buyer arranges own transport | Scheduled morning delivery with driver tracking |
-| **Flower waste** | Unsold stock spoils by afternoon | Better demand visibility helps sellers stock accurately |
+| **Flower waste** | Unsold stock spoils by afternoon | Expanded remote buyer reach helps clear daily inventory faster |
 | **Time pressure** | 4–5 hour window, mostly spent travelling | Ordering done remotely; time goes to setup and arrangement |
 
 ---
@@ -95,18 +99,11 @@ python -m http.server 8000
 
 Open <http://localhost:8000>.
 
-## Deploy On Netlify
+## Deploy On Netlify / Vercel
 
-This is a static site. In Netlify:
+This is a static site. You can deploy it to Vercel or Netlify.
 
-1. Choose **Add new site** and **Import an existing project**.
-2. Select this GitHub repository.
-3. Use these build settings:
-   - Build command: leave blank
-   - Publish directory: `.`
-4. Deploy the site.
-
-`netlify.toml` is included with the same settings.
+- **Live Site:** [hyd-flower-market.vercel.app](https://hyd-flower-market.vercel.app)
 
 ## Prototype Notes
 
