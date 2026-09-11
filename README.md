@@ -2,7 +2,10 @@
 
 A frontend-first digital window into Hyderabad's Gudimalkapur wholesale flower market.
 
-🌐 **Live demo:** [hyd-flower-market.vercel.app](https://hyd-flower-market.vercel.app)
+🌐 **Live Demo:** [hyd-flower-market.vercel.app](https://hyd-flower-market.vercel.app)  
+🎬 **Demo Video:** [Watch on YouTube](https://youtu.be/WmAnQnp7ozE)
+
+[![Gudimalkapur Today Demo Video](https://img.youtube.com/vi/WmAnQnp7ozE/hqdefault.jpg)](https://youtu.be/WmAnQnp7ozE)
 
 > See today's market. Compare real sellers. Order without the trip.
 
@@ -99,11 +102,10 @@ python -m http.server 8000
 
 Open <http://localhost:8000>.
 
-## Deploy On Netlify / Vercel
-
-This is a static site. You can deploy it to Vercel or Netlify.
+## Deployment
 
 - **Live Site:** [hyd-flower-market.vercel.app](https://hyd-flower-market.vercel.app)
+- **Demo Video:** [youtu.be/WmAnQnp7ozE](https://youtu.be/WmAnQnp7ozE)
 
 ## Prototype Notes
 
